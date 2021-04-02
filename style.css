@@ -1,0 +1,338 @@
+@import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+
+.navbar {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    background: white;
+}
+
+.nav-item {
+    margin-left: 10px;
+    margin-right: 10px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.navbar-scroll {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);
+
+}
+
+#hero {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: url(img/mountains-1412683.png);
+
+}
+
+#hero h1 {
+    font-family: 'ZCOOL QingKe HuangYou', serif;
+    font-weight: 700px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+#hero h3 {
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-size: 17px;
+    color: blue;
+    letter-spacing: 2px;
+}
+
+#hero h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    letter-spacing: 3px;
+
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    color: #777;
+    text-align: center;
+}
+
+button {
+    padding: 10px 30px;
+    margin: 20px 0;
+    font-size: 15px;
+    background-color: blue;
+    border: none;
+    border-radius: 15px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: white;
+}
+
+button:focus {
+    border-color: #ced4da;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+#about {
+    margin-top: 10px;
+    padding: 100px 0;
+    height: 110vh;
+    background-color: #D9B9DA;
+    width: 100vw;
+
+}
+
+#about img {
+    border-color: black;
+    border-width: medium;
+    text-align: left;
+    box-shadow: 5px 5px 5px  #91429e;
+    width: 500px;
+    height: auto;
+    
+}
+
+#about h1 {
+    text-align: left;
+    padding-bottom: 10px;
+    font-weight: 600;
+}
+
+#about p {
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    padding-bottom: 20px;
+    color: #777;
+}
+
+#about table tr td {
+    padding-right: 20px;
+}
+
+#about tr td {
+    padding-bottom: 16px;
+}
+
+#about td:nth-child(1) {
+    color: black;
+    font-weight: 600;
+}
+
+#about td:nth-child(2) {
+    color: #777;
+}
+
+#services {
+    text-align: center;
+    margin-top: 10px;
+    padding: 100px 0px;
+}
+
+#services p {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+#services p1 {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    line-height: 100px;
+    
+    font-family: 'Roboto', sans-serif;
+    color: #777;
+    text-align: center;
+
+}
+
+#services .mx-auto {
+    text-align: center;
+    padding: 40px 40px;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);
+    background: rgba(255, 255, 255, .1);
+}
+
+#services .icon {
+    padding-bottom: 15px;
+}
+
+#services .col-lg-4 {
+    margin-bottom: 40px;
+}
+
+#services h3 {
+    color: blue;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+#services i {
+    font-size: 60px;
+    padding: 20px;
+}
+
+#hire {
+    margin-top: 10px;
+    padding: 50px 0;
+    text-align: center;
+    background-color: #D9B9DA;
+}
+#hire .projects{
+
+        width: 400px;
+        padding: 10px;
+        border-style: none;
+        border-width: 1px;
+        border-color: #c82f2f;
+        border-radius: 10px;
+        background-color: #cfcfcf;
+
+}
+
+#hire .img {
+    width: 600px !important;
+    height: auto !important;
+    -o-object-fit: fill;
+    object-fit: fill;
+}
+#hire .text {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        padding-top: 0px;
+        padding-bottom: 10px;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        background-color: #adadec;
+        font-family: Montserrat, sans-serif;
+      
+      
+}
+#hire .b1{
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        padding: 0px;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
+        text-align: left;
+}
+
+#hire .link{
+    text-decoration: none;
+}
+
+#hire .text-block{
+    font-size: 18px;
+}
+#hire .heading{
+        font-family: Lato, sans-serif;
+        text-align: center;
+        text-decoration: none;  
+}
+#hire .text-block-2{
+    font-size: 17px;
+    text-align: center;
+}
+#hire .image{
+    width:auto;
+}
+
+
+#contact {
+    margin-top: 10px;
+    padding: 100px 0px;
+}
+
+#contact h1 {
+    text-align: center;
+
+}
+
+#contact i {
+    font-size: 50px;
+    padding: 20px;
+}
+
+#contact .mx-auto {
+    text-align: center;
+    padding: 50px 30px;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);
+    background: rgba(255, 255, 255, .1);
+    min-height: 280px;
+}
+
+#contact .my-form {
+    padding: 30px;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="tel"],
+    {
+    height: 45px;
+}
+
+textarea {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border-bottom-color: #CED4DA;
+}
+
+#contact input[type="submit"] {
+    padding: 10px 30px;
+    margin: 20px 0;
+    font-size: 15px;
+    background-color: blue;
+    border: none;
+    border-radius: 15px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: white;
+}
+
+#footer {
+    background: #2d3246;
+    padding: 50px 0;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    text-align: center;
+    flex-direction: column;
+}
+
+#footer p {
+    
+    width: 500px;
+    color: rgba(255, 255, 255, 0.8);
+    font-family: 'Roboto Mono', monospace;
+    
+}
+
+#footer h3 {
+    text-align: center;
+    margin-left: 25px;
+    margin-bottom: 20px;
+    
+}
+
+
